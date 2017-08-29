@@ -1,0 +1,95 @@
+#whole-photo img, #newbie-photo img {
+	width: 100%;
+}
+.groups {
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+#group-year {
+	list-style: none;
+	margin-top: 20px;
+}
+#group-year span {
+	float: left;
+	display: inline-block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 140px;
+	text-align: center;
+}
+#group-year .empty {
+	color: #ccc;
+	cursor: default;
+}
+#group-year .item {
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#group-year .item:hover {
+	border-color: #949494;
+}
+#group-year .active {
+	border: 1px solid #000;
+	cursor: default;
+}
+#member-list {
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+#club-label {
+	margin-left: 50px;
+	width: 80%;
+}
+.badge img {
+	width: 100px;
+	height: 100px;
+}
+.position span {
+	margin-right: 10px;
+}
+.club-cn-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.statistics span {
+	margin-right: 25px;
+}
+.tag-item {
+	text-decoration: underline;
+	margin-right: 15px;
+}
+.activities {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#activity-list {
+	border-style: solid;
+	border-width: 0px 0px 0px 1px;
+}
+.activity-item {
+	width: 60%;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 30px 10px;
+}
+.activity-item a {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+.activity-date {
+	font-size: 20px;
+	margin-left: 30px;
+}
+#club-intro {
+	width: 60%;
+}
+#btn-subscribe, #btn-unsubscribe {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+}

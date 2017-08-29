@@ -1,0 +1,134 @@
+#main {
+	width: 75%;
+	margin: auto;
+}
+h1, h3 {
+	text-align: center;
+}
+.link {
+	float: right;
+	font-size: 20px;
+	text-decoration: underline;
+	margin-top: 23px;
+}
+.user-portrait {
+	float: right;
+	margin-top: 23px;
+}
+.user-portrait img {
+	width: 130px;
+	height: 130px;
+}
+hr {
+	color: #000;
+	background-color: #000;
+	height: 1px;
+	line-height: 1px;
+	font-size: 0px;
+	border: none;
+}
+#index-sticker {
+	float: right;
+	margin-right: -20px;
+}
+#index-sticker img {
+	border: 1px solid #000;
+	margin: 10px;
+	-ms-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+.user-account {
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+}
+.user-account .label {
+	position: absolute;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "arial";
+}
+.user-account .label::before {
+	content: "*";
+}
+.user-account .label::after {
+	content: ":";
+}
+.user-account input[type="text"], .user-account input[type="password"] {
+	position: relative;
+	left: -70px;
+	border-width: 0px 0px 2px 0px;
+	border-color: #000;
+	width: 20em;
+	height: 20px;
+	outline: none;
+}
+.alert {
+	color: #a94442;
+	position: relative;
+	left: -160px;
+	visibility: hidden
+}
+#user-more {
+	width: 50%;
+	margin: auto;
+	margin-top: 55px;
+}
+#info-marker {
+	width: 75%;
+	margin-bottom: 30px;
+}
+#info-marker th, #info-marker td {
+	text-align: center;
+}
+#load-more span {
+	font-weight: bold;
+	cursor: pointer;
+}
+#user-info-block {
+	display: none;
+}
+.user-info {
+	border: 1px solid #333;
+	margin: 30px 0px;
+	padding: 11px 5px;
+}
+#sex-info, #birth-info, #position-info, #interest-info, #photo-info {
+	display: none;
+}
+#province {
+	margin: 15px 10px 10px 45px;
+	width: 100px;
+}
+#city {
+	width: 100px;
+}
+#college {
+	margin-left: 45px;
+	width: 130px;
+}
+.add-interest {
+	margin: 10px 50px 10px 20px;
+	padding: 3px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+.delete-interest {
+	padding: 4.5px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+.interest-item {
+	width: 7em;
+	margin-left: 20px;
+}
+#submit-join {
+	float: right;
+	margin-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}

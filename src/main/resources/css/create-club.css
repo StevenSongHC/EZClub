@@ -1,0 +1,46 @@
+h3 {
+	font-size: 20px;
+}
+.club-info {
+	margin-left: 90px;
+	margin-top: 30px;
+}
+select {
+	height: 30px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+#province {
+	width: 150px;
+}
+#city {
+	width: 190px;
+}
+#college {
+	width: 250px;
+}
+.club-info input[type='text'] {
+	width: 200px;
+	display: inline-block;
+	margin-right: 30px;
+}
+.intro-block {
+	border: 1px solid #000;
+	width: 420px;
+	margin-top: 30px;
+}
+.intro-header {
+	width: 200px;
+	padding: 10px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	cursor: default;
+}
+#submit-btn {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 90px;
+	padding-left: 40px;
+	padding-right: 40px;
+}

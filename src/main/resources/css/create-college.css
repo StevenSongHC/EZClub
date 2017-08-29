@@ -1,0 +1,55 @@
+.position, .college {
+	margin-left: 90px;
+	margin-top: 30px;
+}
+.position-block, .college-block {
+	display: inline-block;
+	float: left;
+}
+select {
+	height: 30px;
+	margin-bottom: 20px;
+}
+select.province, input[type="text"].province {
+	display: block;
+	width: 150px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+select.city, input[type="text"].city {
+	display: block;
+	width: 190px;
+	margin-bottom: 20px;
+}
+.college-item {
+	width: 290px;
+	border: 1px solid #000;
+	text-align: center;
+	padding: 8px 20px;
+}
+.intro-block {
+	border: 1px solid #000;
+	width: 327px;
+	height: 306px;
+}
+.intro-header {
+	width: 200px;
+	height: 52px;
+	padding: 13px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	cursor: default;
+}
+#intro {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#submit-btn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.progress {
+	width: 50%;
+}

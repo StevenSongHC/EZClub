@@ -1,0 +1,63 @@
+#main {
+	width: 75%;
+	margin: auto;
+}
+h1, h3 {
+	text-align: center;
+}
+.link {
+	float: right;
+	font-size: 20px;
+	text-decoration: underline;
+	margin-top: 23px;
+}
+hr {
+	color: #000;
+	background-color: #000;
+	height: 1px;
+	line-height: 1px;
+	font-size: 0px;
+	border: none;
+}
+#index-sticker {
+	float: right;
+	margin-right: -20px;
+}
+#index-sticker img {
+	border: 1px solid #000;
+	margin: 10px;
+	-ms-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+#login-form {
+	width: 60%;
+	margin: auto;
+}
+.login-label, .login-data {
+	width: 75%;
+	border: 1px solid #333;
+	text-align: center;
+	outline: none;
+}
+.login-label {
+	padding: 2px 0px;
+}
+.login-data {
+	padding: 5px 0px;
+}
+.check-option {
+	margin-top: 20px;
+}
+#submit-login {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.alert {
+	width: 75%;
+	display: none;
+}

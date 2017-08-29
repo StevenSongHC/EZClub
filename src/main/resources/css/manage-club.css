@@ -1,0 +1,202 @@
+#main {
+	width: 90%;
+}
+.hb {
+	display: none;
+}
+.club-name {
+	font-weight: bold;
+	cursor: default;
+}
+.club-name input[type="text"] {
+	color: #000;
+	font-weight: normal;
+	display: none;
+	width: 30%;
+}
+.club-name .cn-name {
+	text-decoration: underline;
+	font-size: 24px;
+}
+.club-name .en-name {
+	font-size: 16px;
+	margin-left: 10px;
+}
+.club-name .en-name:before {
+	content: "(";
+}
+.club-name .en-name:after {
+	content: ")";
+}
+.club-name button {
+	margin-left: 20px;
+}
+#change-name {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.club-badge img {
+	width: 50px;
+	height: 50px;
+}
+#upload-badge {
+	display: inline-block;
+}
+.position {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.position span {
+	margin-right: 10px;
+}
+.statistics span {
+	margin-right: 37px;
+}
+.club-intro {
+	margin-top: 35px;
+}
+.club-intro .wrapper {
+	border: 1px solid #000;
+}
+.club-intro .wrapper .intro-header {
+	width: 200px;
+	padding: 10px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	cursor: default;
+}
+.club-intro button {
+	margin-top: 20px;
+}
+#edit-intro {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.club-tags {
+	margin-top: 40px;
+}
+.add-tag {
+	padding: 3px;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+#tags {
+	margin-bottom: 15px;
+}
+#tags .item {
+	display: inline-block;
+	border: 1px solid #000;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding-left: 4px;
+}
+#tags .ope {
+	border: 1px solid #000;
+	border-width: 0px 0px 0px 1px;
+	cursor: pointer;
+}
+#tags .name input[type="text"] {
+	width: 125px;
+	border: none;
+}
+#tags .name input[type="text"]:focus {
+	outline: none;
+}
+.member-assignment {
+	padding-bottom: 35px;
+}
+.member-assignment select {
+	height: 30px;
+}
+.member-assignment button {
+	margin-left: 30px;
+}
+#member-nickname {
+	width: 150px;
+	display: inline-block;
+}
+.member-manage {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+}
+.groups {
+	margin-bottom: 10px;
+}
+#group-year {
+	list-style: none;
+}
+#group-year span {
+	float: left;
+	display: inline-block;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 140px;
+	text-align: center;
+}
+#group-year .item {
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#group-year .item:hover {
+	border-color: #949494;
+}
+#group-year .active {
+	border: 1px solid #000;
+	cursor: default;
+}
+#group-photo {
+	margin-top: 25px;
+}
+#group-photo img {
+	width: 450px;
+	height: 350px;
+}
+.departments ul {
+	list-style: none;
+}
+.departments ul li.self {
+	font-weight: bold;
+}
+.departments .header {
+	font-size: 18px;
+	cursor: default;
+}
+.departments .item .header {
+	font-weight: bold;
+}
+.member-contact:before {
+	content: "（";
+}
+.member-contact:after {
+	content: "）";
+}
+.department-edit input[type="text"] {
+	width: 250px;
+	margin-bottom: 15px;
+}
+.add-new-department {
+	margin-top: 20px;
+}
+#manager-candidate {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 50%;
+}
+#password-validate {
+	display: none;
+	width: 50%;
+	margin-bottom: 15px;
+}
+#load-more {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#more {
+	display: none;
+	margin-bottom: 30px;
+}

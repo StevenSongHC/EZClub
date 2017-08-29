@@ -1,0 +1,125 @@
+#main {
+	width: 95%;
+}
+.right-wrapper {
+	margin-bottom: 30px;
+}
+.right-wrapper h3 {
+	margin-top: 0px;
+	cursor: default;
+}
+.right-wrapper h3 img {
+	width: 42px;
+	height: 42px;
+}
+#club-list {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-width: 0px 1px 0px 0px;
+}
+#club-list li {
+	list-style: none;
+}
+#club-list li a {
+	font-size: 24px;
+	color: #333;
+}
+#club-list li.active {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+#club-list li.active a {
+	font-weight: bold;
+}
+#create-club a {
+	font-size: 24px;
+	text-decoration: underline;
+}
+#add-activity {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom:  20px;
+}
+#manage-club {
+	margin-left: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.group-photo img {
+	width: 450px;
+	height: 350px;
+}
+.my-group-info {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.my-group-info input[type="text"] {
+	margin-bottom: 15px;
+	width: 50%;
+}
+.group-members ul li {
+	list-style: none;
+	font-size: 13px;
+}
+.group-members ul li.self {
+	font-weight: bold;
+}
+.group-members .header {
+	font-size: 18px;
+	cursor: default;
+}
+.member-contact:before {
+	content: "（";
+}
+.member-contact:after {
+	content: "）";
+}
+#password-validate {
+	display: none;
+	width: 50%;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+#new-activity {
+	display: none;
+	margin-bottom: 15px;
+}
+#new-activity-title {
+	display: inline-block;
+	width: 70%;
+}
+.activity-item {
+	margin-bottom: 30px;
+}
+.activity-item .update-date {
+	font-size: 20px;
+}
+.activity-item .title {
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.activity-item .content-statistics {
+	font-size: 16px;
+	cursor: default;
+}
+.message-item .header .sender {
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.message-item .header .date {
+	font-size: 13px;
+}
+.message-item p {
+	padding: 10px 25px;
+}
+.message-item .ope-block {
+	float: right;
+}
+.message-item .ope-block button {
+	margin-right: 20px;
+}

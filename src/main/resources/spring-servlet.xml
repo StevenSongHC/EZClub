@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:websocket="http://www.springframework.org/schema/websocket"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+					    http://www.springframework.org/schema/context
+					    http://www.springframework.org/schema/context/spring-context.xsd
+                        http://www.springframework.org/schema/mvc
+                        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+                        http://www.springframework.org/schema/websocket
+                        http://www.springframework.org/schema/websocket/spring-websocket.xsd">
+    
+    <!-- auto scan for annotations such as "@Controller" -->
+    <context:component-scan base-package="me.steven" />
+    
+    <!-- enable annotation config support -->
+    <context:annotation-config />
+    
+    <!-- enable annotation -->
+    <mvc:annotation-driven />
+    
+	<!--  default handler for static resources   -->
+    <!-- <mvc:default-servlet-handler/> -->
+    <mvc:resources mapping="/images/**" location="classpath:/images/" />
+    <mvc:resources mapping="/js/**" location="classpath:/js/" />
+    <mvc:resources mapping="/css/**" location="classpath:/css/" />
+    <mvc:resources mapping="/fonts/**" location="classpath:/fonts/" />
+
+    <!-- interceptor config -->
+    <mvc:interceptors>
+        <bean class="me.steven.ezclub.interceptor.BaseInterceptor" />
+        <mvc:interceptor>
+            <mvc:mapping path="/user/**" />
+            <mvc:mapping path="/club/**" />
+            <mvc:mapping path="/create_club" />
+            <mvc:mapping path="/create_club.do" />
+            <mvc:exclude-mapping path="/club/subscribe" />
+            <bean class="me.steven.ezclub.interceptor.UserInterceptor" />
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/admin/**" />
+            <bean class="me.steven.ezclub.interceptor.AdminInterceptor" />
+        </mvc:interceptor>
+    </mvc:interceptors>
+    
+    <!-- jsp view -->
+    <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="contentType" value="text/html; charset=UTF-8" />
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+        <property name="prefix" value="/WEB-INF/VIEW/" />
+        <property name="suffix" value=".jsp" />
+        <property name="order" value="1" />
+    </bean>
+    
+    <!-- file upload -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="utf-8" />
+        <!-- size limit for each file -->
+        <property name="maxUploadSize" value="-1" />
+    </bean>
+    
+    <!-- websocket -->
+    <websocket:message-broker application-destination-prefix="ez">
+        <websocket:stomp-endpoint path="websocket">
+            <websocket:sockjs/>
+        </websocket:stomp-endpoint>
+        <websocket:simple-broker prefix="topic, queue"/>
+    </websocket:message-broker>
+    
+</beans>

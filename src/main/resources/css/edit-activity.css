@@ -1,0 +1,147 @@
+#main {
+	width: 95%;
+}
+.club-badge {
+	width: 150px;
+	height: 150px;
+}
+.club-cn-name {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	width: 100%;
+}
+#activity-title {
+	width: 50%;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.chat-room {
+	position: fixed;
+}
+#editor-list {
+	list-style: none;
+}
+#editor-list .self {
+	font-weight: bold;
+}
+#editor-amount:before {
+	content: "（";
+}
+#editor-amount:after {
+	content: "）";
+}
+.chat-container {
+	border: 1px solid #000;
+	width: 280px;
+	margin-top: 30px;
+}
+#chat-box {
+	padding: 10px;
+	height: 200px;
+	overflow-y: auto;
+}
+#chat-box .item {
+	word-wrap: break-all;
+	word-break: break-all;
+}
+.chat-container button {
+	margin: 10px;
+}
+#workbench {
+	width: 100%;
+	border: 1px solid #000;
+	margin-top: 15px;
+}
+.header {
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+.header .member-label {
+	padding: 10px;
+	padding-right: 50px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+.header .date {
+	float: right;
+	margin-right: 15px;
+}
+.header .member-label img {
+	width: 25px;
+	height: 25px;
+}
+.header .member-label .name {
+	font-size: 16px;
+	margin-left: 5px;
+}
+#displaying-stage {
+	min-height: 70px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 10px 20px;
+}
+#displaying-stage .content {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#displaying-stage .content img {
+	max-width: 100%;
+}
+#displaying-stage .content video {
+	max-width: 100%;
+}
+#editing-stage {
+	margin-top: 30px;
+}
+#workbench form {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#activity-preview {
+	border: 1px solid #000;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	min-height: 70px;
+	padding: 10px 20px;
+}
+#activity-preview .content {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#activity-preview .content img, .manager-content .content img, #activity-preview .content video, .manager-content .content video {
+	max-width: 100%;
+}
+.manager-content {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+}
+.manager-content .header .member-label {
+	border-style: none;
+}
+.manager-content .header {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding-bottom: 5px;
+}
+.manager-content .content {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+#btn-publish {
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 30px;
+}
